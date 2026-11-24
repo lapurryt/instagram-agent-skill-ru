@@ -11,7 +11,7 @@
 
 | | AUC top vs bottom | Spearman |
 |---|---|---|
-| Jake's English `hookscore.py` on translations of the author's 18 hooks | 0.51 | −0.01 |
+| English `hookscore.py` on translations of the author's 18 hooks | 0.51 | −0.01 |
 | **`hookscore_ru` overall** | **0.63** | **+0.16** |
 | ВЫГОДА (viewer's personal gain) | 0.62 | +0.18 |
 | ЗРИТЕЛЬ (addresses «ты») | 0.51 | +0.03 |
@@ -25,6 +25,6 @@
 
 ## What this means
 
-- **It is a filter, not a predictor.** It reliably catches the anti-formulas and the hooks that promise the viewer nothing. It does not pick the winner between two decent hooks. Jake measured the same thing on his own data and says so in his README: 0.56.
+- **It is a filter, not a predictor.** It reliably catches the anti-formulas and the hooks that promise the viewer nothing. It does not pick the winner between two decent hooks.
 - **Gain matters, grammar doesn't.** Only ВЫГОДА carries signal: the viewer has to understand what he gets. Length, stakes words and numbers do not separate hits from flops here; stakes even leans the wrong way. The checks are kept because they catch broken hooks (a 20-word first sentence, no payload), and ВЫГОДА has the highest weight (1.6).
 - **Re-run this after the next niche swipe**, about monthly. To rebuild it: load `viral_rows.json`, take the first sentence of `first45`, and score each with `hookscore_ru.run()`.

@@ -1,8 +1,7 @@
 ---
 name: ig-ru
 description: >-
-  Russian Instagram agent pack: a 1:1 Russian port of all thirteen skills in Jake
-  Schincariol's instagram-agent-skill (MIT), plus our niche additions. Reels from 29 hook formulas with a Russian
+  Russian Instagram agent pack: thirteen Instagram skills in Russian, with our niche additions. Reels from 29 hook formulas with a Russian
   hook scorer and a beat sheet at his 195 wpm (ig-reel), viral research ranked by outlier multiple (ig-viral),
   caption linter with the «… ещё» cut (ig-caption), carousels, stories, profile score out of 100, weekly plan,
   comments, replies, DMs, repurposing, post-mortem audit, and a Russian humanizer that strips AI slop and em dashes
@@ -16,9 +15,8 @@ description: >-
 
 # ig-ru
 
-Пакет из 13 скиллов для Instagram на русском. Это перенос 1 в 1 репозитория Джейка Шинкариола
-`Jakeschincariol/instagram-agent-skill` (MIT, см. `LICENSE`, `README.md`) с нашими добавками из ниши. Структура как
-у него: каждый скилл лежит в `skills/<имя>/SKILL.md`, рядом его скрипты и данные (`_ru`).
+Пакет из 13 скиллов для Instagram на русском, с добавками из нашей ниши. Каждый скилл лежит в
+`skills/<имя>/SKILL.md`, рядом его скрипты и данные (`_ru`).
 
 Отвечай по-русски, коротко, простыми словами.
 
@@ -26,7 +24,7 @@ description: >-
 
 1. По запросу выбери скилл из таблицы.
 2. Прочитай его `skills/<имя>/SKILL.md` целиком и делай по нему. Claude Code видит их и как отдельные скиллы
-   `ig-ru:ig-reel`, `ig-ru:ig-human` и т.д. (у Джейка `/ig-reel`, `/ig-human`), их можно звать через Skill. Запись
+   `ig-ru:ig-reel`, `ig-ru:ig-human` и т.д., их можно звать через Skill. Запись
    `/ig-human` внутри файлов значит этот же скилл пакета.
 3. Скрипты запускай `python -I -X utf8 <путь к скрипту>`. Зависимостей и сети нет, всё работает на этом компьютере.
 
@@ -51,7 +49,7 @@ description: >-
 ## Инструменты, которые запускаются
 
 ```
-skills/ig-reel/hookscore_ru.py      оценка хука по 6 проверкам (у Джейка 5, наша шестая ВЫГОДА)
+skills/ig-reel/hookscore_ru.py      оценка хука по 6 проверкам, шестая ВЫГОДА
 skills/ig-reel/beats_ru.py          сценарий в биты по секундам, 195 слов в минуту
 skills/ig-caption/caption_ru.py     что видно до «… ещё» и линтер подписи
 skills/ig-human/humanize_ru.py      три прохода чистки: невидимые символы, типографика, штампы

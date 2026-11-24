@@ -1,7 +1,7 @@
 {
   "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "ig-ru",
-  "description": "Пакет скиллов Claude для Instagram на русском (порт instagram-agent-skill Джейка Шинкариола)",
+  "description": "Пакет скиллов Claude для Instagram на русском",
   "owner": {
     "name": "Ilya Rufin",
     "url": "https://t.me/rufinlog"
@@ -9,7 +9,7 @@
   "plugins": [
     {
       "name": "ig-ru",
-      "description": "Тринадцать скиллов Claude для Instagram на русском: оценка хука, поиск того, что залетает в нише, проверка подписи и очеловечиватель. Оригинал: instagram-agent-skill Джейка Шинкариола (MIT).",
+      "description": "Тринадцать скиллов Claude для Instagram на русском: оценка хука, поиск того, что залетает в нише, проверка подписи и очеловечиватель.",
       "source": "./",
       "category": "productivity",
       "homepage": "https://github.com/lapurryt/instagram-agent-skill-ru"

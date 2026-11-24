@@ -1,6 +1,6 @@
 {
  "version": "1.0-ru",
- "source": "Russian port of skills/ig-reel/hooks.json from Jakeschincariol/instagram-agent-skill (MIT). Formulas 27-29 and the anti-formulas come from our own niche swipe of 2026-11-13 (132 reels, 11 accounts) and the author's 24 reels.",
+ "source": "Hook formulas. Formulas 27-29 and the anti-formulas come from our own niche swipe of 2026-11-13 (132 reels, 11 accounts) and the author's 24 reels.",
  "note": "Хук в рилсе это две вещи одновременно: первая фраза голосом и первая надпись на экране. У голоса около 3 секунд, то есть 9-10 слов в темпе автора (около 195 слов в минуту после монтажа). Надпись читают раньше, чем слышат: до 6 слов. Шаблон, пример, надпись на экране, для чего, как обычно портят. Поле evidence: где формула сработала в нашей нише (кратность к медиане аккаунта). Пример без evidence иллюстративный: цифры в нём заменить своими.",
  "rules": [
   "Голос и надпись пишутся отдельно. Надпись короче и грубее, до 6 слов, без лишней пунктуации",

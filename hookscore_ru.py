@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-# Старый путь. С 23.11.2026 скрипт лежит в skills/ig-reel/hookscore_ru.py (ig-ru разложен 1 в 1 как репозиторий Джейка).
+# Старый путь. С 23.11.2026 скрипт лежит в skills/ig-reel/hookscore_ru.py.
 # Этот файл только запускает новый, чтобы старые команды не падали. Новые команды пиши с новым путём.
 import os, runpy, sys
 p = os.path.join(os.path.dirname(os.path.abspath(__file__)), "skills", "ig-reel", "hookscore_ru.py")
